@@ -1,0 +1,179 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  min-width: 990px;
+}
+ul li{
+  list-style: none;
+}
+.btn{
+  background-color: #fff;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  border-radius: 14px;
+  padding: 0 15px;
+}
+.line{
+  color: #f2f2f2;
+  margin: 0 20px;
+}
+.activeClass{
+  background-color: #fdf5f5;
+  color: #ec4141!important;
+  border-radius: 15px;
+}
+.topListPlay{
+  opacity: 0;
+  position: absolute;
+  width: 40px!important;
+  height: 40px!important;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(255, 255, 255, .7);
+  border: 0;
+  border-radius: 50%;
+  transition: opacity .3s linear;
+}
+.showButton{
+  opacity: 1!important;
+}
+.showLoading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+.replaceClass{
+  color: blue;
+}
+.el-main{
+  padding: 0 20px!important;
+}
+.form .el-input__inner{
+  border-width: 0px 0px 1px 0!important;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+}
+a{
+  text-decoration: none;
+}
+.playList .el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf{
+  border-bottom: 0!important;
+}
+.page .el-pagination{
+    display: flex;
+    justify-content: center;
+  }
+.page .el-pagination li:not(.disabled).active{
+  background-color: #ec4141!important;
+} 
+.page .el-pagination li{
+  background-color: #fff!important;
+  border: 1px solid #e5e5e5!important;
+  border-radius: 3px;
+}
+.el-table .cell{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.el-table .cell span,.arName{
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap!important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.playClass{
+  color: #ea4141!important;
+}
+.currentProgressBar .el-slider__runway{
+  margin: 0!important;
+  height: 4px!important;
+}
+.currentProgressBar .el-slider__button{
+  position: absolute;
+  top: 0px;
+  width: 8px!important;
+  height: 8px!important;
+  background-color: #ea4141!important;
+  border: 0!important;
+}
+.currentProgressBar .el-slider__button-wrapper{
+  width: 8px!important;
+  height: 8px!important;
+  top: -2px!important;
+}
+.currentProgressBar .el-slider__bar{
+  height: 4px!important;
+  background-color: #ea4141!important;
+}
+.lyric .el-drawer__body{
+  background-image: linear-gradient(#c3c1c2, #fff)!important;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lyric .el-drawer__body span{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.el-drawer__wrapper{
+  bottom: 80px!important;
+}
+.musicListTable .el-drawer__wrapper{
+  top: 60px!important;
+}
+.el-menu--horizontal .is-active{
+  /* background-color: #000!important; */
+  border-bottom: 2px solid #ec4141!important;
+}
+.el-menu .is-active{
+  font-size: 18px!important;
+  font-weight: bold;
+}
+.is-active{
+  color: #000!important;
+  font-weight: normal;
+}
+.el-aside .is-active{
+  background-color: #f5f5f6!important;
+}
+.el-aside .el-submenu{
+  background-color: #fff!important;
+  font-weight: normal;
+}
+.el-aside .el-menu-item:hover{
+  background-color: #f5f5f6!important;
+}
+.el-submenu__title:hover{
+  background-color: #fff!important;
+}
+.el-menu--horizontal{
+  border: 0!important;
+}
+.el-submenu .el-menu-item-group__title{
+  display: none;
+}
+.el-menu-item{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.newMusicListContainer .el-table__header-wrapper{
+  height: 0!important;
+}
+.hotAlbum .el-table__header-wrapper{
+  height: 0!important;
+}
+.el-table::before{
+  height: 0!important;
+}
